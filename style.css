@@ -1,0 +1,47 @@
+h1{
+    color:black;
+}
+h2{
+    color:#ad05ad;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    color:mediumvioletred;
+    font-style:unset;
+    text-align: center;
+}
+p{
+    color:lightcoral;
+    font-size: 1.8vmin;
+    text-align: center;
+}
+a{
+    color:#ad05ad;
+    font-size:2vmin;
+}
+/*
+*{
+    border: solid;
+}
+*/
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: #16E6CC;
+}
